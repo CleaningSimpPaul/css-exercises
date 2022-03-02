@@ -10,7 +10,38 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
+
+.text{
+  text-align: center;
+}
+
+.mainthing{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.mainthing div{
+  max-width: 200px;
+}
+
+.firstimg, .secondimg, .thirdimg, .fourthimg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
